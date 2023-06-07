@@ -17,6 +17,6 @@ export const useKeepConnectionAlive = () => {
         .catch((err) => {
           console.error(err);
         });
-    }, 9000);
+    }, 50000);
   }, [counter]);
 };
