@@ -1,0 +1,33 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0.85rem;
+  background: rgba(128, 128, 128, 0.164);
+  position: relative;
+}
+
+.navbar > div {
+  cursor: pointer;
+}
+
+.nav-username {
+  display: flex;
+  align-items: center;
+}
+
+.nav-user-img-wrapper {
+  width: 1.5%;
+}
+
+.nav-user-img-wrapper > img {
+  width: 100%;
+  border-radius: 100%;
+}
+
+.dropdown {
+  position: absolute;
+  bottom: -1rem;
+  background: white;
+  padding: 0.5rem 1rem;
+}

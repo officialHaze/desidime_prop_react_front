@@ -1,0 +1,167 @@
+/* display flexs'  */
+.modal-card,
+.org-info,
+.google-login-container,
+.google-login-container > div,
+.login-form-extras,
+.manual-login-form,
+.manual-signup-form,
+.login-page,
+.signup-page {
+  display: flex;
+}
+
+.modal-card {
+  justify-content: center;
+  height: 53%;
+  width: 40%;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.5);
+}
+
+.org-info,
+.login-page,
+.signup-page {
+  width: 50%;
+}
+
+/* org info  */
+.org-info {
+  background: url("https://cdn0.desidime.com/assets/login_signup_popup_bg-cac8ce4b6e89d35466eef1f0f19281be.png");
+  padding: 1.5rem 2rem;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.org-section-1 {
+  line-height: 1.45;
+}
+
+.org-logo-wrapper > img {
+  width: 40%;
+}
+
+.org-desc {
+  margin-top: 1rem;
+  padding: 0 1rem;
+}
+
+.know-more-about-org {
+  margin-top: 1.5rem;
+}
+
+.know-more-about-org > a {
+  text-decoration: none;
+  color: #3c79f5;
+  font-weight: bold;
+}
+
+.sign-up-btn,
+.log-in-btn,
+.login-btn,
+.signup-btn {
+  margin-top: 0.5rem;
+  padding: 0.85rem 1rem;
+  border: 1px solid #4cae4c;
+  background: white;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #4cae4c;
+  cursor: pointer;
+  border-radius: 0.25rem;
+}
+
+/* login and signup page  */
+.login-page,
+.signup-page {
+  background: white;
+  padding: 1rem 2rem 1.5rem;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.login-page > div:first-child,
+.signup-page > div:first-child {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.google-login-container {
+  gap: 2rem;
+  padding: 0.25rem;
+  background: #4285f4;
+  color: white;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.google-login-container > div {
+  align-items: center;
+}
+
+.google-logo {
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  background: white;
+  border-radius: 0.2rem;
+}
+
+.google-login-link {
+  text-decoration: none;
+  color: white;
+}
+
+.or-tag,
+.or-tag-signup {
+  font-weight: bold;
+  color: grey;
+  font-size: 1.25rem;
+}
+
+.or-tag-signup {
+  font-size: 1rem;
+}
+
+/* .manual-login-form-wrapper{
+    width: 100%;
+} */
+
+.manual-login-form,
+.manual-signup-form {
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.manual-signup-form {
+  gap: 0.5rem;
+}
+
+.login-input,
+.signup-input {
+  width: 94%;
+  padding: 0.85rem 0.5rem;
+  border-radius: 0.25rem;
+  font-size: 0.9rem;
+}
+
+.login-form-extras,
+.signup-form-extras {
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.85rem;
+}
+
+.login-form-extras > div:last-child > a,
+.signup-form-extras > div:last-child > a {
+  text-decoration: none;
+  color: #2192ff;
+}
+
+.login-btn,
+.signup-btn {
+  width: 100%;
+  background: #4cae4c;
+  color: white;
+}

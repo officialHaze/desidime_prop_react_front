@@ -1,0 +1,11 @@
+.rank-container {
+  width: 7%;
+}
+
+.rank-icon-wrapper > img {
+  width: 80%;
+}
+
+.rank-name{
+  font-size: 0.9rem;
+}

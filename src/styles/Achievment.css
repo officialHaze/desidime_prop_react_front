@@ -1,0 +1,15 @@
+.icon-wrapper > img {
+  width: 20%;
+  height: 100%;
+}
+
+.icon-wrapper {
+  width: 100%;
+  padding: 1rem;
+}
+
+.achievment-container {
+  width: 18%;
+  padding: 1rem;
+  background: white;
+}

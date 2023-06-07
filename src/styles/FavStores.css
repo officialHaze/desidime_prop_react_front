@@ -1,0 +1,28 @@
+.fav-store-container {
+  width: 20vw;
+  text-align: left;
+}
+
+.users-name {
+  padding: 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.list-of-fav-stores {
+  width: 100%;
+  margin-top: 1rem;
+  padding: 1rem 1rem 1.5rem;
+  background: white;
+  border: 1px solid rgba(122, 122, 122, 0.3);
+  position: relative;
+}
+
+.list-of-fav-stores::after {
+  content: "";
+  height: 4px;
+  width: 100%;
+  position: absolute;
+  background: orange;
+  left: 0;
+  bottom: 0;
+}

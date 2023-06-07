@@ -1,0 +1,60 @@
+.inbox-deals,
+.browse-section,
+.browse-list-content,
+.about {
+  display: flex;
+}
+
+.inbox-deals {
+  background: #0079ff;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.deal-input,
+.sub-btn {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+}
+
+.sub-btn {
+  border-radius: 0;
+  background: #57bb63;
+  color: white;
+  margin: 0 2rem;
+}
+
+.browse-list {
+  color: white;
+}
+
+.browse-section {
+  padding: 1rem 15rem;
+  gap: 10rem;
+}
+
+.browse-section > h3 {
+  width: 15rem;
+}
+
+.browse-list-content {
+  gap: 2rem;
+}
+
+.browse-list-content > li > a {
+  color: rgba(255, 255, 255, 0.541);
+}
+
+.about {
+  background: #2c3333;
+  color: white;
+  padding: 0.5rem 15rem;
+}
+
+.legal-stuff {
+  width: 15rem;
+  padding: 1rem 0;
+}

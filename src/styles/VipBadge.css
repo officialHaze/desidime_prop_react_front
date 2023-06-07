@@ -1,0 +1,11 @@
+.badge-container {
+  width: 8%;
+}
+
+.badge-icon-wrapper > img {
+  width: 45%;
+}
+
+.badge-container > div:last-child {
+  font-size: 0.85rem;
+}

@@ -1,0 +1,10 @@
+.extra-info-container {
+  text-align: left;
+  padding: 1rem;
+  margin: 1.5rem 0;
+  background: white;
+}
+
+.extra-info-container > div:last-child {
+  padding: 1.5rem 0 0;
+}
