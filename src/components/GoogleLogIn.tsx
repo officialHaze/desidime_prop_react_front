@@ -11,7 +11,7 @@ function GoogleLogIn() {
       <div>
         <Link
           className="google-login-link"
-          to={`http://localhost:5000/auth/google`}
+          to={`${process.env.REACT_APP_BACKEND_URL}/auth/google`}
         >
           Continue With Google
         </Link>
