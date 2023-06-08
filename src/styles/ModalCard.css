@@ -13,8 +13,8 @@
 
 .modal-card {
   justify-content: center;
-  height: 53%;
-  width: 40%;
+  height: 32rem;
+  width: 50rem;
   border-radius: 1rem;
   overflow: hidden;
   box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.5);
