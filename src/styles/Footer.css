@@ -42,6 +42,7 @@
 
 .browse-list-content {
   gap: 2rem;
+  flex-wrap: wrap;
 }
 
 .browse-list-content > li > a {
@@ -57,4 +58,10 @@
 .legal-stuff {
   width: 15rem;
   padding: 1rem 0;
+}
+
+@media only screen and (max-width: 1500px) {
+  .browse-section {
+    padding: 1rem 5rem;
+  }
 }
